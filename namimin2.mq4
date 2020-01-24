@@ -31,6 +31,14 @@ void OnDeinit(const int reason)
 void OnTick()
   {
 //---
+double o = iOpen(NULL,0,0);
+double h = iHigh(NULL,0,0);
+double c = iClose(NULL,0,0);
+double l = iLow(NULL,0,0);
+   printf(o);
+   printf(h);
+   printf(l);
+   printf(c);
    
   }
 //+------------------------------------------------------------------+
